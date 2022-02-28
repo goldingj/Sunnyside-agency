@@ -1,0 +1,449 @@
+body{
+    margin: 0;
+    font-size: 18px;
+}
+
+.logo{
+    padding-top: 40px;
+    margin-left: 50px;
+    margin-right: 670px;
+}
+
+span{
+    padding-right: 40px;
+}
+
+nav{
+    position: relative;
+    left: 800px;
+    bottom: 20px;
+    width: 40%;
+}
+
+.hamburger-menu{
+    display: none;
+}
+
+#intro{
+    background-image: url('image-header.jpg');
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    color: white;
+    font-family: "barlow", serif;
+    overflow: hidden;
+}
+
+nav span:hover{
+    cursor: pointer;
+}
+
+button{
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-weight: 600;
+    border: none;
+    font-family: 'fraunces', sans-serif;
+}
+
+button:hover{
+    background-color: hsl(198, 62%, 80%);
+    color: white;
+    cursor: pointer;
+}
+
+#intro p {
+    color: white;
+    font-size: 42px;
+    font-family: "fraunces", sans-serif;
+    font-weight: 700;
+    text-align: center;
+    letter-spacing: 4px;
+    
+}
+
+.arrow{
+    margin-left: 50%;
+    margin-right: 50%;
+    margin-top: 70px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.graphic-design{
+    background-image: url('cherry-image.jpg');
+    bottom: 33px; 
+    margin-top: -9px; 
+}
+
+.graphic-design h4, .photography h4{
+    font-size: 25px;
+}
+
+.photography{
+    background-image: url('orange-image.jpg');
+    margin-top: -9px;
+}
+
+.graphic-design-info{
+    color: hsl(167, 40%, 24%);
+    padding-left: 100px;
+}
+
+.photography-info{
+    color: hsl(198, 62%, 26%);
+    padding-left: 125px;
+}
+
+.graphic-design-info, .photography-info{
+    padding-top: 345px;
+    width: 65%;
+    font-weight: 500;
+}
+
+.graphic-design, .photography{
+    text-align: center;
+    width: 50%;
+    height: 555px;
+    background-position: center;
+}
+
+.cherry-orange-container{
+    display: flex;
+}
+
+
+
+
+.main{
+    /*width: 350px;
+    height: 300px;*/
+    text-align: left;
+    line-height: 1.5;
+}
+
+h3, h4, h1, .learn{
+    font-family: 'fraunces', serif;
+    color: hsl(212, 27%, 19%);
+    font-weight: 900;
+    /*font-size: 25px;*/
+}
+
+.learn-transform{
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    text-decoration-color: hsl(51, 100%, 80%);
+    font-weight: 700;
+    padding-left: 20%;
+}
+
+.learn-stand{
+    text-decoration: underline;
+    text-decoration-thickness: 8px;
+    text-decoration-color: hsl(7, 99%, 90%);
+    font-weight: 700;
+    padding-left: 20%;
+}
+
+.learn-transform:hover{
+    text-decoration-color: hsl(51, 100%, 49%);
+    cursor: pointer;
+}
+
+.learn-stand:hover{
+    text-decoration-color: hsl(7, 99%, 70%);
+    cursor: pointer;
+}
+
+.cup, .egg{
+    width: 50%;
+    display: flex;
+}
+
+.egg-div{
+    width: 50%;
+}
+
+.egg{
+    left: 20px;
+    width: 632px;
+}
+
+.egg-mobile{
+    display: none;
+}
+
+
+.cup{
+    bottom: 4px;
+    right: 27px;
+    width: 632px;
+    
+}
+
+.cup-div{
+    width: 50%;
+    
+}
+
+.cup-mobile{
+    display: none;
+}
+
+.info-box{
+    padding-top: 100px;
+    width: 50%;
+    line-height: 1.5;
+    text-align: justify;
+}
+
+.info-box p{
+    color: hsl(232, 10%, 55%);
+    font-weight: 700px;
+    width: 70%;
+    font-size: 18px;
+    text-align: justify;
+    padding-left: 20%;
+}
+
+.info-box h1{
+    font-size: 30px;
+    padding-left: 20%;
+}
+
+
+p{
+    font-family: 'fraunces' sans-serif;
+    font-size: 20px;
+}
+
+/*client testimonials*/
+
+.testimonials{
+    padding-top: 110px;
+    padding-bottom: 125px;
+    background-color: hsl(210, 4%, 95%);
+}
+
+.testimonials h2{
+    text-align: center;
+    margin-bottom: 50px;
+    color: hsl(210, 4%, 67%);
+    letter-spacing: 4px;
+}
+
+.testimonials p{
+    width: 90%;
+    padding-left: 20px;
+    font-size: 18px;
+    font-family: 'barlow', serif;
+}
+
+
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 1.5;
+    font-family: 'fraunces', serif;
+    font-weight: 500;
+}
+
+.client-img{
+    border-radius: 100%;
+    width: 70px;
+}
+
+.client-title{
+    color: hsl(210, 4%, 67%);
+}
+
+/*Closing Images*/
+
+.closing-img-container{
+    display: flex;
+}
+
+.bottom-img{
+    /*width: 316px;
+    height: 400px;*/
+    overflow: hidden;
+}
+
+.bottom-img-mobile{
+    display: none;
+}
+
+/*footer*/
+
+footer{
+    background-color: hsl(168, 34%, 75%);
+    height: 350px;
+    /*width: 1263px;*/
+    overflow: hidden;
+    text-align: center;
+    padding-top: 100px;
+    color: hsl(167, 40%, 24%);
+}
+
+ul{
+    list-style: none;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    margin-left: 75px;
+    font-size: 20px;
+    font-family: 'barlow', serif;
+    font-weight: 700;
+}
+
+li{
+    display: inline;
+    padding-right: 60px;
+}
+
+li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+.footer-logo{
+    filter: hsl(168, 34%, 41%);
+    margin-left: 50px;
+}
+
+.social-media{
+    padding-right: 50px;
+    margin-left: 50px;
+}
+
+.social-media:hover{
+    cursor: pointer;
+}
+
+/*Responiveness*/
+
+@media only screen and (max-width: 1224px){
+
+    #intro{
+        overflow: hidden;
+    }
+
+    .container{
+        overflow: hidden;
+    }
+
+    .egg{
+        display: none;
+    }
+
+    .egg-mobile{
+        display: block;
+    }
+
+    .cup{
+        display: none;
+    }
+
+    .cup-mobile{
+        display: block;
+    }
+
+    .info-box, .info-box p, .learn-stand{
+        text-align: center;
+        padding-left: 35px;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .info-box p{
+        padding-top: 0;
+    }
+
+    .info-box h1{
+        padding-right: 200px;
+        width: 50%;
+    }
+
+    .learn-transform{
+       padding-right: 40%;
+    }
+
+    .learn-stand{
+        padding-right: 20%;
+    }
+
+    
+
+    .graphic-design{
+        background-image: url('image-graphic-design-mobile.jpg');
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .photography{
+        background-image: url('image-photography-mobile.jpg');
+        background-size: 500px;
+        background-repeat: no-repeat;
+    }
+
+    .graphic-design, .photography{
+        text-align: center;
+    }
+    .graphic-design{
+        height: 600px;
+    }
+
+    .graphic-design-info, .photography-info{
+        width: 50%;
+        margin-left: 5%;
+    }
+
+    .cherry-orange-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .closing-img-container{
+        flex-wrap: wrap;
+    }
+
+    .bottom-img{
+        display: none;
+    }
+
+    .bottom-img-mobile{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 1212px){
+    nav{
+        display: none;
+    }
+
+    .hamburger-menu{
+        display: block;
+        float: right;
+        padding-top: 50px;
+        padding-right: 30px;
+    }
+}
+
+@media only screen and (max-width: 915px){
+    .hamburger-menu{
+        display: block;
+        padding-top: 0;
+        
+    }
+}
