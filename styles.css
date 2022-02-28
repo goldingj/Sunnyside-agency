@@ -25,7 +25,7 @@ nav{
 }
 
 #intro{
-    background-image: url('image-header.jpg');
+    background-image: url('images/image-header.jpg');
     height: 700px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +76,7 @@ button:hover{
 }
 
 .graphic-design{
-    background-image: url('cherry-image.jpg');
+    background-image: url('images/cherry-image.jpg');
     bottom: 33px; 
     margin-top: -9px; 
 }
@@ -86,7 +86,7 @@ button:hover{
 }
 
 .photography{
-    background-image: url('orange-image.jpg');
+    background-image: url('images/orange-image.jpg');
     margin-top: -9px;
 }
 
@@ -380,13 +380,13 @@ li:hover{
     
 
     .graphic-design{
-        background-image: url('image-graphic-design-mobile.jpg');
+        background-image: url('images/image-graphic-design-mobile.jpg');
         background-size: 500px;
         background-repeat: no-repeat;
     }
 
     .photography{
-        background-image: url('image-photography-mobile.jpg');
+        background-image: url('images/image-photography-mobile.jpg');
         background-size: 500px;
         background-repeat: no-repeat;
     }
